@@ -1,0 +1,14 @@
+.socialni-site {
+	display: flex;
+	gap: 0.5rem;
+
+	&__instagram,
+	&__facebook {
+		display: flex;
+
+		&:focus,
+		&:hover {
+			box-shadow: 0 0 0.5rem rgba(#000000, 0.4);
+		}
+	}
+}
