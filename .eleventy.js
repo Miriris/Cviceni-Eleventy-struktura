@@ -10,7 +10,7 @@ module.exports = function (eleventyConfig) {
 		dir: {
 			input: 'src',
 			output: 'dist',
-			includes: 'includes',
+			includes: 'casti',
 			data: 'data',
 			layouts: 'layouty',
 			passthroughFileCopy: true,

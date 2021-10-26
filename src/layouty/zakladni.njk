@@ -10,15 +10,11 @@
 	</head>
 	<body>
 		<div class="layout">
-			<header class="hlavicka">
-				Hlavička
-			</header>
-			<main>
+			{% include "hlavicka.njk" %}
+			<main class="telo">
 				{{ content | safe }}
 			</main>
-			<footer class="paticka">
-				© 2021
-			</footer>
+			{% include "paticka.njk" %}
 		</div>
 	</body>
 </html>
