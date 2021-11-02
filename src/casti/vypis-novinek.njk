@@ -1,0 +1,6 @@
+<ul class="vypis-novinek">
+  {% for zprava in novinky %}
+    <li class="vypis-novinek__polozka">{{ zprava.titulek }} (<time class="vypis-novinek__datum">{{ zprava.datum}}</time>)</li>
+  {% endfor %}
+
+</ul>
