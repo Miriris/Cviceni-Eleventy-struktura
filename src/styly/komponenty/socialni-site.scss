@@ -1,0 +1,23 @@
+
+.socialni-site {
+
+  &__instagram {
+    margin-right: 0.5rem;
+    text-decoration: none;
+    
+    &:hover,
+    &:focus {
+      box-shadow: 0 0 0.5rem rgba(#000000, 0.4);
+    }
+  }
+
+  &__facebook {
+    
+    &:hover,
+    &:focus {
+      box-shadow: 0 0 0.5rem rgba(#000000, 0.4);
+    }
+  }
+}
+
+
